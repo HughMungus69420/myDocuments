@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: mydocuments/about/
+permalink: /about/
 has_children: true
 ---
 
