@@ -2,7 +2,7 @@
 layout: page
 title: Child Of About
 permalink: /about/childofabout/
-parent: about
+parent: About
 ---
 
 Hello World
