@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Two
-permalink: /two/
+title: Hellu
+permalink: /hellu/
 ---
 Chapter 4
 
