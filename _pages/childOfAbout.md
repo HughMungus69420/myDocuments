@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Child Of About
-permalink: /about/childofabout
+permalink: mydocuments/about/childofabout/
 parent: about
 ---
 
