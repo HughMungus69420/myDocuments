@@ -2,6 +2,6 @@ main:
   - title: "About"
     url: /about/
   - title: "Child Of About"
-    url: /childofabout/
+    url: /about/childofabout/
   - title: "Two"
     url: /two/
