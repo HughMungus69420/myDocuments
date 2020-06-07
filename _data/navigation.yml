@@ -1,5 +1,7 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Child Of About"
+    url: /childofabout/
   - title: "Two"
     url: /two/
