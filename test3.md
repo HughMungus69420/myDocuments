@@ -4,11 +4,9 @@ title: Test 3
 permalink: /test3/
 ---
 
-Chapter 6
+#Chapter 6 - Web Services
 
-###### Web Services
-
-###### Abstract
+## Abstract
 
 Based on the client-server principle, Web services are software systems that
 interact with client applications and other services through open Web standards.
@@ -29,7 +27,7 @@ services. Using these example implementations, this chapter concludes by
 comparing the two Web service variants in terms of their different application
 areas.
 
-###### Learning Objectives of this Chapter
+## Learning Objectives of this Chapter
 
 This chapter's main learning objective is to help readers understand the Web
 service concept from different perspectives. Once readers have studied this
@@ -48,7 +46,7 @@ Markup Language (XML). Furthermore, readers will understand how
 RESTfιιl and SOAP-based Web services define and propagate their service
 offerings and how service consumers can communicate with them.
 
-###### Structure of this Chapter
+## Structure of this Chapter
 
 This chapter about Web services is structured as follows: The first section
 introduces the fundamentals of the Web service concept, including its use in
@@ -61,7 +59,7 @@ and external Web service architectures. In closing, the two most common
 implementations of Web services, namely SOAP-based and RESTful Web services, are
 closely examined and compared.
 
-###### Introduction to Web Services
+## Introduction to Web Services
 
 Web services are software systems that interact with client applications and
 other services via open standards in order to exchange data. These interactions
@@ -92,7 +90,7 @@ interface require the other to be updated. Therefore, using a loosely coupled
 architecture frequently leads to a more manage­able software system and enables
 easier integration into various systems.
 
-###### Web Service
+## Web Service
 
 >   Web services are self-contained, modular, distributed, dynamic applications
 >   that can be described, published, located, and invoked over the network to
@@ -187,7 +185,7 @@ Web tech­nologies commonly used by current Web service implementations, the
 architectural constructs that enable Web service interactions, and an
 explication of two common Web service implementations.
 
-###### Basic Web Technologies
+## Basic Web Technologies
 
 As stated, standardization is a key concept in the case of Web services. The Web
 service's main purpose is to support interoperable machine-oriented and
@@ -200,7 +198,7 @@ customization efforts. These established Web technologies mainly include the
 Hyper Text Transfer Protocol (HTTP) and Extensible Markup Language (XML), which
 will be introduced in the following sections.
 
-###### 6.2.1 Hyper Text Transfer Protocol (HTTP)
+## 6.2.1 Hyper Text Transfer Protocol (HTTP)
 
 HTTP is probably the most important technological foundation of the WWW and, in
 particular, the most commonly used communications protocol for interacting with
@@ -228,7 +226,7 @@ with the help of the secondary cryptographic protocol TLS (Transport Layer
 Security). HTTPS is often employed when sensible data is exchanged (e.g., login
 credentials).
 
-###### Hyper Text Transfer Protocol (HTTP)
+## Hyper Text Transfer Protocol (HTTP)
 
 >   The Hypertext Transfer Protocol (HTTP) is a stateless application-level
 >   pro­tocol for distributed, collaborative, hypertext information systems
@@ -355,7 +353,7 @@ before it expires). In contrast to GET, HEAD, and OPTIONS, the POST, PUT, and
 DELETE methods can modify resources and are presumably not cacheable for the
 reasons outlined above.
 
-###### Extensible Markup Language (XML)
+## Extensible Markup Language (XML)
 
 The Extensible Markup Language (XML) is a data-description language that
 struc­tures data such that it can easily be understood, retrieved, and shared
@@ -393,7 +391,7 @@ specific application cases. A few examples of XML-based languages are MathML
 provisioning), XBRL (business reporting language), and, of course, languages for
 Web service interactions (e.g., SOAP, WSDL\^ or WS-\*).
 
-###### Extensible Markup Language (XML)
+## Extensible Markup Language (XML)
 
 >   Extensible Markup Language, commonly abbreviated XML, describes a class of
 >   data objects called XML documents and partially describes the behavior of
@@ -406,7 +404,7 @@ via software that uses standard programming interfaces like XML DOM. Regarding
 Web services that utilize XML, this kind of interpreters are part of the
 internal architecture, as described in Section 6.3.2.
 
-###### XML Basic Document Structure
+## XML Basic Document Structure
 
 XML documents are text documents that contain only legal Unicode characters.
 Remember that the Unicode standard specifies a common character set such that it
@@ -465,7 +463,7 @@ of Internet Computing.*
 
 **Table 6.3** XML Document example
 
-###### Namespaces
+## Namespaces
 
 ![](media/758e971813cfa607f1f12b6697dd795f.jpg)
 
@@ -506,7 +504,7 @@ element, as it does not have a child object that specifies the topics.
 
 ![](media/c4dd9451d7fcc82c9069dda00074bb17.jpg)
 
-###### XML Document Validation
+## XML Document Validation
 
 An XML parser can only correctly process documents that comply with the XML
 Syntax Rules (e.g., all opened tags are closed, or correct nesting). However,
@@ -539,7 +537,7 @@ processed with the same tool chain and framework used for all other XML
 docu­ments. In 2001, the W3C published the first version of XSD as a
 recommendation. The latest version 1.1 was released in 2012.
 
-###### XML Schema Definition (XSD) Schemata
+## XML Schema Definition (XSD) Schemata
 
 >   An XSD schema aims at defining and describing a class of XML documents via
 >   schema components to constrain and document the meaning, usage, and
@@ -654,7 +652,7 @@ based on the schema. Many XML editors have integrated live validation, i.e.
 while typing, these XML editors show which elements violate the schema
 referenced in the document.
 
-###### 6.3 Web Service Architectures
+## 6.3 Web Service Architectures
 
 In the following, the Web services' architectural foundations are explained,
 including the service-oriented architecture design pattern, as well as the
@@ -663,7 +661,7 @@ these foundations are applied in practice, this chapter explores and compares
 two wide-spread Web service variants, namely RESTful and SOAP-based Web
 services.
 
-###### 6.3.1 Service-Oriented Architecture
+## 6.3.1 Service-Oriented Architecture
 
 The Web service concept is closely tied to a system design paradigm called
 service- oriented architecture (SOA), which can be implemented through Web
@@ -708,7 +706,7 @@ card number may also involve checking whether the customer associated with the
 credit card number has valid bank account details, which requires requesting
 information from another system.
 
-###### Service
+## Service
 
 >   A service is a logical representation of a repeatable business activity that
 >   has a specified outcome, is self-contained, may consist of other services,
@@ -744,7 +742,7 @@ decreases the effort in providing and consuming services over the Web.
 **Fig. 6.3** Conceptional interactions within an service oriented architecture
 (SOA)
 
-###### Service Oriented Architecture (SOA)
+## Service Oriented Architecture (SOA)
 
 >   SOA represents a set of principles and methodologies for designing and
 >   developing software in the form of interoperable services. These services
@@ -760,9 +758,9 @@ decoupling and support from both service providers and service consumers without
 utilizing the established Web service standards, which, in turn, are based on
 wide­spread Web technologies.
 
-###### Internal and External Web Service Architecture
+## Internal and External Web Service Architecture
 
-###### Perspectives
+## Perspectives
 
 Recapitulating the previous sections, the Web service's main purpose is to
 expose the internal operations or an IT system’s resources such that clients can
@@ -846,7 +844,7 @@ technologies are more suitable for implementing external Web service
 architectures. The seamless interaction between these architectures is normally
 accomplished by using established Web standards like XML and HTTP.
 
-###### SOAP Web Services
+## SOAP Web Services
 
 A SOAP Web service, which is also called a big Web service, uses an XML
 messaging architecture and message formats based on the SOAP standard. Available
@@ -879,7 +877,7 @@ secure message exchanges (e.g., Web Service Security), service management (e.g.,
 Web Service Management), and service discovery. Next, the architecture's
 essential aspects are examined in more detail.
 
-###### SOAP Message Transportation
+## SOAP Message Transportation
 
 ![](media/3646c286d791f07ae850d30ee87681d1.jpg)
 
@@ -896,7 +894,7 @@ SOAP message. This is not supported by most middleware platforms. The available
 bindings are propagated in the description of a specific Web service (i.e., a
 WSDL file), as later exemplified in Table 6.8.
 
-###### SOAP Message Processing
+## SOAP Message Processing
 
 SOAP Web services operate according to a distributed processing model that
 consists of several components. Clients generate SOAP messages that are sent to
@@ -943,7 +941,7 @@ asynchronous message exchange, which makes it more suitable for building loosely
 coupled systems. Furthermore, the exchange of messages based on a
 middleware-independent schema reduces technological dependencies.
 
-###### SOAP Message Format
+## SOAP Message Format
 
 A SOAP message, which can be either a client request or a Web server response,
 is a valid XML document that uses the default *SOAP envelope*
@@ -1050,7 +1048,7 @@ contains a status code that indicates, in this, case success, i.e. 200 OK.
 
 13\</soap: Envelope\>
 
-###### SOAP Service Descriptions (WSDL)
+## SOAP Service Descriptions (WSDL)
 
 In order to be understood and correctly used, a SOAP Web service requires, to a
 certain extent, an interface description. For instance, a Web service that can
@@ -1144,7 +1142,7 @@ an *Author* name.
 
 ![](media/d032a2ac07493d5a54ab2cd452732f0b.jpg)
 
-###### WS-\* Specifications
+## WS-\* Specifications
 
 SOAP and WSDL provide a flexible XML-based messaging infrastructure and a
 standard service description method. However, neither SOAP, nor WSDL address
@@ -1177,7 +1175,7 @@ Process Execution Language) provides an addi­tional XML-based language, which
 can be used to describe the logic that connects several Web services, thereby
 allowing to implement complex business processes (OASIS 2003).
 
-###### RESTful Web Services
+## RESTful Web Services
 
 Representational State Transfer (REST) describes an architectural style for
 designing loosely coupled applications over HTTP. When REST is used as basis for
@@ -1272,7 +1270,7 @@ actually execute the distrib­uted program code.
 
 >   **Fig. 6.7** Conceptual architecture of RESTful Web services
 
-###### RESTful Web Service Interactions
+## RESTful Web Service Interactions
 
 The RESTful Web services' uniform interface design only provides basic
 operations for accessing and manipulating, i.e. creating, deleting, reading, and
@@ -1313,7 +1311,7 @@ which matches the specified resource (see Table 6.10).
 
 **Table 6.10** Example of a RESTful HTTP response
 
-###### Exposing RESTful Web Services
+## Exposing RESTful Web Services
 
 ![](media/bf90359074924a7ff18c7d8a45d9c1fb.jpg)
 
@@ -1351,7 +1349,7 @@ SOAP Web services are willing to adopt it.
 
 ![](media/cdc9625e0fb7af37d7a1d6c58b3aa9a0.jpg)
 
-###### Differentiating Between RESTful and SOAP Web Services
+## Differentiating Between RESTful and SOAP Web Services
 
 As briefly mentioned in the previous sections and summarized in Table 6.12,
 there are several major differences between the RESTful and SOAP Web services
@@ -1414,7 +1412,7 @@ considering the clients' design.
 | **Pros**              | High security, standardized approach, extensible functionality | Scalable, requires fewer computing and net­working resources, requests cacheable by default |
 | **Cons**              | Requires more network band­width, more complex interfaces      | Less secure, less flexible, and less functional flexibility                                 |
 
-###### Summary
+## Summary
 
 Web services provide their clients with functionalities in the form of
 self-contained services that encapsulate the underlying IT system's internal
@@ -1490,7 +1488,7 @@ comparison to SOAP Web services, makes them more efficient and easier to invoke,
 but also less flexible. RESTful Web services use the Web Application Description
 Language (WADL) to expose their functionality to clients.
 
-###### Questions
+## Questions
 
 1.  What is a Web service?
 
@@ -1509,7 +1507,7 @@ Language (WADL) to expose their functionality to clients.
 
 8.  What are RESTful Web services and how do they differ from SOAP Web services?
 
-###### References
+## References
 
 Alonso G, Casati F, Kuno H, Machiraju V (2004) Web services. In: Alonso G,
 Casati F, Kuno H, Machiraju V (eds) Web services: concepts, architectures and
@@ -1639,7 +1637,7 @@ Wang Q, Yuan Y, Zhou J, Zhou A (2003) Peer-serv: a framework of web services in
 peer-to-peer environment. Paper presented at the advances in web-age information
 management, Chengdu, 17-19 Aug 2003
 
-###### Further Reading
+## Further Reading
 
 Alonso G, Casati F, Kuno H, Machiraju V (2004) Web services. In: Alonso G,
 Casati F, Kuno H, Machiraju V (eds) Web services: concepts, architectures and
