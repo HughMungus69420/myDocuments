@@ -3,8 +3,8 @@ layout: page
 title: Child Of About
 permalink: /about/childofabout/
 parent: About
-mathjax: "true"
 ---
+{% include mathjax.html %}
 
 Hello World
 
