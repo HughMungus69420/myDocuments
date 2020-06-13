@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Child Of About
 permalink: /about/childofabout/
 parent: About
