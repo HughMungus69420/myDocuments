@@ -5,7 +5,6 @@ permalink: /about/childofabout/
 parent: About
 mathjax: "true"
 ---
-{% include mathjax.html}
 
 Hello World
 
